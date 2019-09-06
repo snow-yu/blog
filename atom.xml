@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://jiaxueyu.github.io/blog.github.com/</id>
+    <id>https://snow-yu.github.io/blog/</id>
     <title>snow</title>
-    <updated>2019-09-06T06:01:39.446Z</updated>
+    <updated>2019-09-06T06:04:31.986Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://jiaxueyu.github.io/blog.github.com/"/>
-    <link rel="self" href="https://jiaxueyu.github.io/blog.github.com//atom.xml"/>
+    <link rel="alternate" href="https://snow-yu.github.io/blog/"/>
+    <link rel="self" href="https://snow-yu.github.io/blog//atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://jiaxueyu.github.io/blog.github.com//images/avatar.png</logo>
-    <icon>https://jiaxueyu.github.io/blog.github.com//favicon.ico</icon>
+    <logo>https://snow-yu.github.io/blog//images/avatar.png</logo>
+    <icon>https://snow-yu.github.io/blog//favicon.ico</icon>
     <rights>All rights reserved 2019, snow</rights>
     <entry>
         <title type="html"><![CDATA[mac键位大全]]></title>
-        <id>https://jiaxueyu.github.io/blog.github.com//post/mac-jian</id>
-        <link href="https://jiaxueyu.github.io/blog.github.com//post/mac-jian">
+        <id>https://snow-yu.github.io/blog//post/mac-jian</id>
+        <link href="https://snow-yu.github.io/blog//post/mac-jian">
         </link>
         <updated>2019-09-06T05:49:01.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[测试文章1]]></title>
-        <id>https://jiaxueyu.github.io/blog.github.com//post/ce-shi-wen-zhang-1</id>
-        <link href="https://jiaxueyu.github.io/blog.github.com//post/ce-shi-wen-zhang-1">
+        <id>https://snow-yu.github.io/blog//post/ce-shi-wen-zhang-1</id>
+        <link href="https://snow-yu.github.io/blog//post/ce-shi-wen-zhang-1">
         </link>
         <updated>2019-09-06T02:10:48.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[测试文章]]></title>
-        <id>https://jiaxueyu.github.io/blog.github.com//post/ce-shi-wen-zhang</id>
-        <link href="https://jiaxueyu.github.io/blog.github.com//post/ce-shi-wen-zhang">
+        <id>https://snow-yu.github.io/blog//post/ce-shi-wen-zhang</id>
+        <link href="https://snow-yu.github.io/blog//post/ce-shi-wen-zhang">
         </link>
         <updated>2019-09-06T02:01:28.000Z</updated>
     </entry>
