@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jiaxueyu.github.io/blog.github.com/</id>
     <title>snow</title>
-    <updated>2019-09-06T02:55:34.326Z</updated>
+    <updated>2019-09-06T05:54:27.668Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jiaxueyu.github.io/blog.github.com/"/>
     <link rel="self" href="https://jiaxueyu.github.io/blog.github.com//atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://jiaxueyu.github.io/blog.github.com//images/avatar.png</logo>
     <icon>https://jiaxueyu.github.io/blog.github.com//favicon.ico</icon>
     <rights>All rights reserved 2019, snow</rights>
+    <entry>
+        <title type="html"><![CDATA[mac键位大全]]></title>
+        <id>https://jiaxueyu.github.io/blog.github.com//post/mac-jian</id>
+        <link href="https://jiaxueyu.github.io/blog.github.com//post/mac-jian">
+        </link>
+        <updated>2019-09-06T05:49:01.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[测试文章1]]></title>
         <id>https://jiaxueyu.github.io/blog.github.com//post/ce-shi-wen-zhang-1</id>
