@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://snow-yu.github.io/blog//favicon.ico?v=1573564710514">
+<link rel="shortcut icon" href="https://snow-yu.github.io/blog//favicon.ico?v=1573567059563">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://snow-yu.github.io/blog//styles/main.css">
 
@@ -30,7 +30,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://snow-yu.github.io/blog/">
-        <img src="https://snow-yu.github.io/blog//images/avatar.png?v=1573564710514" class="site-logo">
+        <img src="https://snow-yu.github.io/blog//images/avatar.png?v=1573567059563" class="site-logo">
         <h1 class="site-title">snow</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -96,31 +96,121 @@
             <div class="post-date">2019-11-12</div>
             
             <div class="post-content">
-              <h1 id="shell">shell</h1>
+              <h2 id="shell">shell</h2>
 <blockquote>
 <p>shell 就是一个程序，接受从键盘输入的命令，然后把命令传递给操作系统去执行。<br>
 bash(Bourne Again SHell)：最初Unix上由Steve Bourne写成的shell程序sh的增强版</p>
 </blockquote>
-<h1 id="文件系统">文件系统</h1>
+<h2 id="文件系统">文件系统</h2>
 <blockquote>
 <p>linux 以分层目录结构来组织所有文件，即所有文件组成来一棵树目录（有且只有一个）。文件系统中的第一级目录称为根目录。根目录包含文件和子目录。</p>
 </blockquote>
-<h2 id="命令">命令</h2>
+<h3 id="文件名规则">文件名规则</h3>
+<ol>
+<li>以“.”字符开头的文件名是隐藏文件</li>
+<li>文件名和命令名是大小写敏感的</li>
+<li>linux没有文件扩展名的概念。文件内容或用途由其他方法来决定</li>
+<li>文件名命名支持空格、标点符号（只限使用“.”，“-”，下划线），不要在文件名中使用空格</li>
+</ol>
+<h3 id="路径">路径</h3>
+<ul>
+<li>绝对路径</li>
+</ul>
+<blockquote>
+<p>绝对路径开始于根目录（用“/”表示），紧跟着目录树的一个个分之，一直到达所期望的目录或文件。</p>
+</blockquote>
+<ul>
+<li>相对路径</li>
+</ul>
+<blockquote>
+<p>相对路径开始于工作目录，文件系统中用两个特殊符号来表示相对位置。着两个特殊符号分别是“.”(工作目录)、“..”（工作目录的父目录）。</p>
+</blockquote>
+<ul>
+<li>使用建议</li>
+</ul>
+<blockquote>
+<p>哪个输入量少就用哪个</p>
+</blockquote>
+<h3 id="特殊字符">特殊字符</h3>
+<ul>
+<li>“～”表示用户家目录</li>
+</ul>
+<h3 id="命令">命令</h3>
 <table>
 <thead>
 <tr>
 <th>命令</th>
-<th style="text-align:center">完整命令</th>
-<th style="text-align:right">参数</th>
-<th style="text-align:right">描述</th>
+<th style="text-align:left">完整命令</th>
+<th>选项</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>pwd</td>
-<td style="text-align:center">print working directory</td>
-<td style="text-align:right"></td>
-<td style="text-align:right">显示当前工作目录</td>
+<td style="text-align:left">print working directory</td>
+<td></td>
+<td>显示当前工作目录</td>
+</tr>
+<tr>
+<td>ls</td>
+<td style="text-align:left">list directory contents</td>
+<td></td>
+<td>列出目录内容</td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align:left">-l</td>
+<td>以长模式输入</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align:left">-a</td>
+<td>列出所有文件，包括被隐藏的隐藏文件</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align:left">-d</td>
+<td>以长模式输入</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align:left">-h(human readable)</td>
+<td>以长格式列出时，以人们可读的格式</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align:left">-r(reverse)</td>
+<td>以相反的顺序来显示结果</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align:left">-S(size)</td>
+<td>按照文件大小来排序</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align:left">-t(time)</td>
+<td>按照修改时间来排序</td>
+<td></td>
+</tr>
+<tr>
+<td>cd</td>
+<td style="text-align:left">change directory</td>
+<td></td>
+<td>更改工作目录</td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align:left">-</td>
+<td>更改工作目录到先前的工作目录</td>
+<td></td>
 </tr>
 </tbody>
 </table>
