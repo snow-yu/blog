@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://snow-yu.github.io/blog//favicon.ico?v=1573567576666">
+<link rel="shortcut icon" href="https://snow-yu.github.io/blog//favicon.ico?v=1574164129211">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://snow-yu.github.io/blog//styles/main.css">
 
@@ -30,7 +30,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://snow-yu.github.io/blog/">
-        <img src="https://snow-yu.github.io/blog//images/avatar.png?v=1573567576666" class="site-logo">
+        <img src="https://snow-yu.github.io/blog//images/avatar.png?v=1574164129211" class="site-logo">
         <h1 class="site-title">snow</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -118,7 +118,7 @@ bash(Bourne Again SHell)：最初Unix上由Steve Bourne写成的shell程序sh的
 <li>绝对路径</li>
 </ul>
 <blockquote>
-<p>绝对路径开始于根目录（用“/”表示），紧跟着目录树的一个个分之，一直到达所期望的目录或文件。</p>
+<p>绝对路径开始于根目录（用“/”表示），紧跟着目录树的一个个分支，一直到达所期望的目录或文件。</p>
 </blockquote>
 <ul>
 <li>相对路径</li>
@@ -175,7 +175,7 @@ bash(Bourne Again SHell)：最初Unix上由Steve Bourne写成的shell程序sh的
 <td></td>
 <td style="text-align:left"></td>
 <td>-d</td>
-<td>以长模式输入</td>
+<td>展示目录，与-l集合使用查看制定目录的详细信息</td>
 </tr>
 <tr>
 <td></td>
@@ -212,6 +212,109 @@ bash(Bourne Again SHell)：最初Unix上由Steve Bourne写成的shell程序sh的
 <td style="text-align:left"></td>
 <td>-</td>
 <td>更改工作目录到先前的工作目录</td>
+</tr>
+</tbody>
+</table>
+<h3 id="linux结构">linux结构</h3>
+<table>
+<thead>
+<tr>
+<th>目录</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/</td>
+<td style="text-align:left">根目录</td>
+</tr>
+<tr>
+<td>/bin</td>
+<td style="text-align:left">包含系统启动和运行所必须的二进制程序</td>
+</tr>
+<tr>
+<td>/boot</td>
+<td style="text-align:left">包含linux内核、初始RAM磁盘映象（用于启动时所需的驱动）和启动加载程序。</td>
+</tr>
+<tr>
+<td>/dev</td>
+<td style="text-align:left">包含设备节点的特殊目录</td>
+</tr>
+<tr>
+<td>/etc</td>
+<td style="text-align:left">包含所有系统层面的配置文件，也包含一系列的shell脚本</td>
+</tr>
+<tr>
+<td>/home</td>
+<td style="text-align:left">用户权限当前目录</td>
+</tr>
+<tr>
+<td>/lib</td>
+<td style="text-align:left">包含核心系统程序所使用的共享库文件</td>
+</tr>
+<tr>
+<td>/lost+found</td>
+<td style="text-align:left">格式化分区或设备</td>
+</tr>
+<tr>
+<td>/media</td>
+<td style="text-align:left">现在的Linux系统中，包含可移动介质的挂载点，比如usb设备、光盘等</td>
+</tr>
+<tr>
+<td>/mnt</td>
+<td style="text-align:left">早期的Linux系统中，包含可移动介质的挂载点</td>
+</tr>
+<tr>
+<td>/opt</td>
+<td style="text-align:left">包含可能安装在系统中的商业软件产品</td>
+</tr>
+<tr>
+<td>/root</td>
+<td style="text-align:left">root账户的家目录</td>
+</tr>
+<tr>
+<td>/sbin</td>
+<td style="text-align:left">包含系统二进制文件，通常为超级用户保留</td>
+</tr>
+<tr>
+<td>/temp</td>
+<td style="text-align:left">包含由各种程序创建的临时文件的地方</td>
+</tr>
+<tr>
+<td>/usr</td>
+<td style="text-align:left">包含普通用户所需要的所有程序和文件</td>
+</tr>
+<tr>
+<td>/usr/bin</td>
+<td style="text-align:left">包含系统安装的可执行程序，通常这个目录包含许多程序</td>
+</tr>
+<tr>
+<td>/usr/lib</td>
+<td style="text-align:left">包含由/usr/bin 目录中的程序所用的共享库</td>
+</tr>
+<tr>
+<td>/usr/local</td>
+<td style="text-align:left">由非系统发行版自带程序的安装目录</td>
+</tr>
+<tr>
+<td>/usr/sbin</td>
+<td style="text-align:left">包含许多系统管理程序</td>
+</tr>
+<tr>
+<td>/usr/share</td>
+<td style="text-align:left">包含许多由/usr/bin目录中的程序使用的共享数据</td>
+</tr>
+<tr>
+<td>/usr/share/doc</td>
+<td style="text-align:left">大多数安装在系统中的软件会包含一些文档</td>
+</tr>
+<tr>
+<td>/var</td>
+<td style="text-align:left">存放的是动态文件。各种数据库，用户邮件等，都放在这里</td>
+</tr>
+<tr>
+<td>/var/log</td>
+<td style="text-align:left">包含日志文件、各种系统活动的目录</td>
 </tr>
 </tbody>
 </table>
