@@ -2,32 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://snow-yu.github.io/blog/</id>
     <title>snow</title>
-    <updated>2020-01-21T03:05:49.700Z</updated>
+    <updated>2020-03-07T14:05:02.158Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://snow-yu.github.io/blog/"/>
-    <link rel="self" href="https://snow-yu.github.io/blog//atom.xml"/>
+    <link rel="self" href="https://snow-yu.github.io/blog/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://snow-yu.github.io/blog//images/avatar.png</logo>
-    <icon>https://snow-yu.github.io/blog//favicon.ico</icon>
+    <logo>https://snow-yu.github.io/blog/images/avatar.png</logo>
+    <icon>https://snow-yu.github.io/blog/favicon.ico</icon>
     <rights>All rights reserved 2020, snow</rights>
     <entry>
         <title type="html"><![CDATA[linux命令行]]></title>
-        <id>https://snow-yu.github.io/blog//post/6oBjq-2ks</id>
-        <link href="https://snow-yu.github.io/blog//post/6oBjq-2ks">
+        <id>https://snow-yu.github.io/blog/post/6oBjq-2ks</id>
+        <link href="https://snow-yu.github.io/blog/post/6oBjq-2ks">
         </link>
         <updated>2019-11-12T12:53:03.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[IntelliJ IDEA]]></title>
-        <id>https://snow-yu.github.io/blog//post/9SOMYHblN</id>
-        <link href="https://snow-yu.github.io/blog//post/9SOMYHblN">
+        <id>https://snow-yu.github.io/blog/post/9SOMYHblN</id>
+        <link href="https://snow-yu.github.io/blog/post/9SOMYHblN">
         </link>
         <updated>2019-11-10T11:58:11.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[mac键位大全]]></title>
-        <id>https://snow-yu.github.io/blog//post/mac-key</id>
-        <link href="https://snow-yu.github.io/blog//post/mac-key">
+        <id>https://snow-yu.github.io/blog/post/mac-key</id>
+        <link href="https://snow-yu.github.io/blog/post/mac-key">
         </link>
         <updated>2019-09-06T05:49:01.000Z</updated>
     </entry>
